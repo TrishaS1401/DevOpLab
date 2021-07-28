@@ -11,7 +11,7 @@ while True:
 	elif guess > random_number:
 		print("TOO HIGH!")
 	else:
-		print("YOU WON!!!!")
+		print("Wow!YOU WON!!!!")
 		play_again = input("Do you want to play again? (y/n) ")
 		if play_again == "y":
 			random_number = random.randint(1,10)  # numbers 1 - 10
